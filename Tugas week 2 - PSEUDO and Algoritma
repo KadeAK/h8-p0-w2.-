@@ -1,0 +1,101 @@
+Tugas Week 2 PSEUDO CHALLENGE 
+
+1. NEWTON SECOND LAW:
+
+a. Algoritma nya Newton Law
+	
+	1. Untuk mencari tau gaya mobil yang didorong oleh tiga orang, maka 		perlu diketahui massa mobil (kg) dan juga perlu diketahui kecepatan 		ketika didorong oleh 3 orang
+	2. Berat massa mobil adalah 600kg (m)
+	3. Kecepatan mobil yangg didorong adalah 2m/s2 (a)
+	4. Diketahui rumus adalah ΣF= m * a
+	5. Maka 600 kg * 2m/s2 = 1200 Newton
+	6. Gaya yang didorong adalah 1200 Newton
+
+
+b. Pseudo Newton Law
+
+STORE Massa mobil equals to 600kg
+STORE Kecepatan mobil equals to 2m/s
+STORE Newton without any value
+
+CALCULATE Massa mobil multiplied by Kecepatan mobil
+SET Newton value with calculation result
+
+Display 1200 Newton
+
+
+2. TAHUN KABISAT
+
+a. Algoritma Tahun Kabisat
+
+1. JIka terdapat 29 hari pada bulan Februari maka tahun itu ialah tahun kabisat
+2. Diketahui untuk mengetahui tahun kabisat terdapat dua kondisi
+3. Kondisi pertama yaitu Jika tahun habis dibagi 4, dan tidak habis dibagi 100
+4. Atau jika tahun habis dibagi 4, habis dibagi 100, dan habis dibagi 400
+5. Jika memenuhi salah satu dikondisi tersebut maka tahun itu tahun kabisat
+
+b. Pseudo Tahun kabisat
+
+IF "Tahun" divided by 4, 100 and 400 equals to 0
+	Display "Tahun kabisat"
+ELSE
+IF "Tahun" divided by 4 equals to 0, But not by 100
+	Display "Tahun kabisat"
+
+ENDIF
+
+DISPLAY "Tahun kabisat" if either condition fulfilled
+
+3. LAUNDRY DAY
+
+a. Algoritma Laundry Day
+
+1. Untuk memastikan 20 jumlah pakaian yang masuk ke mesin cuci Foxie dapat
+   membagi setiap 4 sesi/round
+2. Maka masing-masing 5 pakaian yang masuk terhitung 1 round/sesi
+3. Dan cara menghitungnya yaitu setiap 1 - 5
+
+
+b. Pseudo Laundry Day
+
+STORE "JumlahPakaian" with 0
+
+WHILE "JumlahPakaian" < 6
+ ADD "JumlahPakaian" by  1
+
+IF "JumlahPakaian" equals to 4 value 
+DISPLAY "Success"
+ELSE
+REPEAT "JumlahPakaian"
+UNTIL 4
+
+4.Periksa Kuku 
+
+a. Algoritma Periksa Kuku
+
+1. Terdapat 40 siswa yang terdapat dalam kelas
+2. Guru berkeliling untuk menginspeksi panjang dan pendek kuku siswa
+3. Guru berkeliling dari satu barisan ke barisan lain
+4. Setiap barisan terdapat 10 siswa
+5. Jika kuku siswa/siswi tersebut panjang maka guru akan menghukum siswa terebut
+6. Jika kuku siswa/sisi tersebut tidak panjang maka guru akan memuji siswa tersebut.
+
+b. Pseudo Periksa Kuku
+
+STORE "Periksa siswa/siswi" to 40
+
+
+WHILE "Periksa siswa/siswi" < 11
+ ADD "Periksa siswa/siswi" by 1
+
+FOR the inspection "Periksa siswa/siswi"
+STORE "Kuku siswa/siswi" to check the result
+IF "Kuku siswa/siswi" is long
+  DISPLAY "Siswa dihukum"
+ ELSE
+  DISPLAY "Siswa dipuji"
+
+END IF
+
+
+
