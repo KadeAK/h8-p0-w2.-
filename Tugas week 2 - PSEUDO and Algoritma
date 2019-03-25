@@ -4,7 +4,8 @@ Tugas Week 2 PSEUDO CHALLENGE
 
 a. Algoritma nya Newton Law
 	
-	1. Untuk mencari tau gaya mobil yang didorong oleh tiga orang, maka 		perlu diketahui massa mobil (kg) dan juga perlu diketahui kecepatan 		ketika didorong oleh 3 orang
+	1. Untuk mencari tau gaya mobil yang didorong oleh tiga orang, maka 
+	perlu diketahui massa mobil (kg) dan juga perlu diketahui kecepatan ketika didorong oleh 3 orang
 	2. Berat massa mobil adalah 600kg (m)
 	3. Kecepatan mobil yangg didorong adalah 2m/s2 (a)
 	4. Diketahui rumus adalah ΣF= m * a
