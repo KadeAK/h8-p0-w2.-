@@ -89,7 +89,6 @@ STORE "Periksa siswa/siswi" to 40
 WHILE "Periksa siswa/siswi" < 11
  ADD "Periksa siswa/siswi" by 1
 
-FOR the inspection "Periksa siswa/siswi"
 STORE "Kuku siswa/siswi" to check the result
 IF "Kuku siswa/siswi" is long
   DISPLAY "Siswa dihukum"
