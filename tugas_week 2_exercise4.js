@@ -10,10 +10,10 @@ function getRandomIntInclusive(min, max) {
 
 switch (bulan){
     case 1 :
-        namaBulan = 'January';
+        namaBulan = 'Januari';
         break;
     case 2 :
-        namaBulan = 'Febuary';
+        namaBulan = 'Februari';
         break;
     case 3 :
         namaBulan = 'Maret';
@@ -28,7 +28,7 @@ switch (bulan){
         namaBulan = 'Juni' ;
         break;
     case 7 :
-        namaBulan = 'July' ;
+        namaBulan = 'Juli' ;
         break;
     case 8 :
         namaBulan = 'Agustus' ;
