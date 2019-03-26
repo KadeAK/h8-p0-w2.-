@@ -47,4 +47,4 @@ switch (bulan){
     break;
 }
 
-    console.log(tanggal, namaBulan, tahun);
+    console.log(tanggal + ' ' + namaBulan + ' ' + tahun);
