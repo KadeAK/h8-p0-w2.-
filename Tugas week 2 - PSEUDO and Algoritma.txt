@@ -39,8 +39,7 @@ b. Pseudo Tahun kabisat
 
 IF "Tahun" divided by 4, 100 and 400 equals to 0
 	Display "Tahun kabisat"
-ELSE
-IF "Tahun" divided by 4 equals to 0, But not by 100
+ELSE IF "Tahun" divided by 4 equals to 0, But not by 100
 	Display "Tahun kabisat"
 
 ENDIF
