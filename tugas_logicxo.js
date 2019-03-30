@@ -10,7 +10,7 @@ function xo(str) {
   if (str[j] === 'o'){
     valueO++}
 
- if (valueX == valueO ){
+ if (valueX === valueO ){
   return true;
 } else {
   return false;
