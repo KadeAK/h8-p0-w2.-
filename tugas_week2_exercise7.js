@@ -17,7 +17,6 @@ for (var j = 0 ; j < 5 ; j++)
 var asterix = ''; 
 
 for(var i = 0; i < 5; i++){
-for (var j = 0 ; j <= 0 ; j++)
   asterix += '*';
   console.log(asterix)
 }
