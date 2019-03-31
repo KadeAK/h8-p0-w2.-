@@ -22,10 +22,3 @@ for (var j = 0 ; j <= 0 ; j++)
   console.log(asterix)
 }
 
-//Nomer 3 cara lain
-var asterix = '';
-
-for(var i = 0; i < 5; i++){
-  asterix += '*'
-  console.log(asterix)
-}
