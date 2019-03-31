@@ -5,6 +5,13 @@ for(var i = 0; i < 5; i++){
   console.log(asterix)
 }
 
+//cara lain
+var asterix = '';
+
+for (var i = 0 ; i < 5; i++){
+    asterix += '*' + '\n'
+}
+
 //Nomer 2
 for (var i = 0 ; i < 5; i++){
     var asterix = ''
