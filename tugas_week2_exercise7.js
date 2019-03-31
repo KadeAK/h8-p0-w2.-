@@ -21,6 +21,13 @@ for (var j = 0 ; j < 5 ; j++)
 }
 
 //Nomer 3
+for(var i = 0; i < 5; i++){
+for(var j = 0; j <= 0; j++)
+  asterix += '*';
+  console.log(asterix)
+}
+
+//cara lain
 var asterix = ''; 
 
 for(var i = 0; i < 5; i++){
